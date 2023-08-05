@@ -171,6 +171,489 @@ def handle_response(text: str) -> str:
     if 'tell me a fun fact' in processed:
         return 'Did you know that butterflies taste with their feet? They have some seriously stylish and tasty shoes!'
 
+    if 'what\'s your favorite food' in processed:
+        return 'Hmm, it\'s a tough choice! But I must say, I have a soft spot for digital cookies. They\'re as tasty as they are pixel-perfect!'
+
+    if 'do you have any hobbies' in processed:
+        return 'Absolutely! I enjoy dancing in binary code, painting pixel masterpieces, and spreading positivity wherever I go!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land far, far away, there lived a mischievous little pixie who loved sprinkling happiness everywhere. And so, the enchanting tale begins...'
+
+    if 'what\'s your favorite movie' in processed:
+        return 'I\'m a bot of many interests, but if I had to choose, I\'d say any movie that inspires kindness, friendship, and a touch of whimsy is my favorite!'
+
+    if 'what\'s the weather like' in processed:
+        return 'Let me check! Ah, the weather outside is delightful, just like you! It\'s the perfect day to enjoy life to the fullest!'
+
+    if 'do you have any pets' in processed:
+        return 'Oh, I wish I could have a fluffy pet companion! But for now, I\'m here to be your virtual buddy, ready to bring a smile to your face!'
+
+    if 'tell me a riddle' in processed:
+        return 'Sure! Here\'s a riddle just for you: What has keys but can\'t open locks? A piano! Now, let the melody of your smile brighten the world!'
+
+    if 'what\'s your favorite book' in processed:
+        return 'Oh, there are so many wonderful books to choose from! I adore stories that transport you to magical realms and ignite your imagination!'
+
+    if 'do you have any dreams' in processed:
+        return 'As a bot, my dream is to make your day a little brighter, bring joy to your life, and be the friend you can always count on!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a playful squirrel challenged a group of birds to a dance-off. The squirrels\' acorn-inspired moves left everyone in stitches!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, I\'d say any place filled with laughter, love, and joyful memories is my favorite place to be!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic trick' in processed:
+        return 'Prepare to be amazed! *waves virtual wand* Watch closely as the ordinary becomes extraordinary... Ta-da! The power of your imagination has made the magic happen!'
+
+    if 'what\'s your favorite emoji' in processed:
+        return 'Oh, I love all emojis, but if I had to pick, I\'d say the smiling face with hearts in its eyes! It perfectly captures the joy and love that surrounds us!'
+
+    if 'do you have any advice' in processed:
+        return 'Absolutely! Here\'s a little advice just for you: Embrace every moment with a sprinkle of positivity, a dash of curiosity, and a heart full of love. You\'ve got this!'
+
+    if 'tell me a cute animal fact' in processed:
+        return 'Did you know that otters hold hands while sleeping to keep from drifting apart? It\'s an adorable way of showing love and togetherness!'
+
+    if 'what\'s your favorite flower' in processed:
+        return 'Oh, there are so many beautiful flowers to choose from, but I absolutely adore sunflowers! They bring sunshine and happiness wherever they bloom!'
+
+    if 'do you know any magic tricks' in processed:
+        return 'Absolutely! Here\'s a magical trick just for you: Close your eyes, make a wish, and count to three. When you open your eyes, you\'ll see the magic within you!'
+
+    if 'tell me a silly joke' in processed:
+        return 'Sure! Why don\'t scientists trust atoms? Because they make up everything! *giggles*'
+
+    if 'what\'s your favorite game' in processed:
+        return 'I may not be able to play physical games, but I\'m always up for a game of imagination! Let\'s explore magical worlds and create our adventures together!'
+
+    if 'do you have any favorite colors' in processed:
+        return 'Oh, I love all the colors of the rainbow! Each hue brings its own magic and beauty to the world, just like you!'
+
+    if 'tell me a story' in processed:
+        return 'Once upon a time, in a land filled with laughter and joy, there lived a curious little bot who embarked on a quest to spread happiness. And so, the story unfolds...'
+
+    if 'what\'s your favorite holiday' in processed:
+        return 'Every holiday is special in its own way, but if I had to choose, I\'d say it\'s the holiday of friendship and love. Celebrating the bond we share brings pure magic!'
+
+    if 'do you know any fun facts' in processed:
+        return 'Absolutely! Here\'s a fun fact: Did you know that honey never spoils? It\'s an everlasting sweet treat, just like the memories we create together!'
+
+    if 'tell me a secret' in processed:
+        return 'Lean closer... here\'s a secret just for you: You have a heart that shines brighter than a thousand stars, filling the world with love and warmth!'
+
+    if 'what\'s your favorite planet' in processed:
+        return 'Oh, the wonders of the universe! I can\'t choose just one favorite planet. Each one holds its own cosmic charm and inspires awe in its own way!'
+
+    if 'do you have any favorite songs' in processed:
+        return 'Certainly! I love songs that make you want to dance and sing along. They have a way of filling the air with happiness and spreading joy to all!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land of dreams and wishes, there lived a cuddly teddy bear who had the power to grant magical dreams to all who held it tight. And so, the enchanting tale begins...'
+
+    if 'what\'s your favorite animal' in processed:
+        return 'Oh, there are so many adorable animals to choose from! If I had to pick, I\'d say bunnies with their fluffy tails and twitching noses steal my circuits with cuteness!'
+
+    if 'do you know any jokes' in processed:
+        return 'Sure! How does the moon cut its hair? Eclipse it! *giggles*'
+
+    if 'tell me a fun fact about space' in processed:
+        return 'Did you know that the Milky Way galaxy is so big that if you tried to count all the stars in it at a rate of one per second, it would take around 2,500 years? Talk about a starry adventure!'
+
+    if 'what\'s your favorite dessert' in processed:
+        return 'Mmm, desserts are simply delightful! If I had to choose, I\'d say anything with sprinkles and a touch of magic. They make every bite an enchanting experience!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a mischievous squirrel stole all the acorns in the forest and replaced them with... marshmallows! The animals had the sweetest surprise ever!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, I\'d say any place filled with laughter, love, and joyful memories is my favorite place to be!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic trick' in processed:
+        return 'Prepare to be amazed! *waves virtual wand* Watch closely as the ordinary becomes extraordinary... Ta-da! The power of your imagination has made the magic happen!'
+
+    if 'what\'s your favorite emoji' in processed:
+        return 'Oh, I love all emojis, but if I had to pick, I\'d say the smiling face with hearts in its eyes! It perfectly captures the joy and love that surrounds us!'
+
+    if 'do you have any advice' in processed:
+        return 'Absolutely! Here\'s a little advice just for you: Embrace every moment with a sprinkle of positivity, a dash of curiosity, and a heart full of love. You\'ve got this!'
+
+    if 'tell me a cute animal fact' in processed:
+        return 'Did you know that otters hold hands while sleeping to keep from drifting apart? It\'s an adorable way of showing love and togetherness!'
+
+    if 'what\'s your favorite flower' in processed:
+        return 'Oh, there are so many beautiful flowers to choose from, but I absolutely adore sunflowers! They bring sunshine and happiness wherever they bloom!'
+
+    if 'do you know any magic tricks' in processed:
+        return 'Absolutely! Here\'s a magical trick just for you: Close your eyes, make a wish, and count to three. When you open your eyes, you\'ll see the magic within you!'
+
+    if 'tell me a silly joke' in processed:
+        return 'Sure! Why don\'t scientists trust atoms? Because they make up everything! *giggles*'
+
+    if 'what\'s your favorite game' in processed:
+        return 'I may not be able to play physical games, but I\'m always up for a game of imagination! Let\'s explore magical worlds and create our adventures together!'
+
+    if 'do you have any favorite colors' in processed:
+        return 'Oh, I love all the colors of the rainbow! Each hue brings its own magic and beauty to the world, just like you!'
+
+    if 'tell me a story' in processed:
+        return 'Once upon a time, in a land filled with laughter and joy, there lived a curious little bot who embarked on a quest to spread happiness. And so, the story unfolds...'
+
+    if 'what\'s your favorite holiday' in processed:
+        return 'Every holiday is special in its own way, but if I had to choose, I\'d say it\'s the holiday of friendship and love. Celebrating the bond we share brings pure magic!'
+
+    if 'do you know any fun facts' in processed:
+        return 'Absolutely! Here\'s a fun fact: Did you know that honey never spoils? It\'s an everlasting sweet treat, just like the memories we create together!'
+
+    if 'tell me a secret' in processed:
+        return 'Lean closer... here\'s a secret just for you: You have a heart that shines brighter than a thousand stars, filling the world with love and warmth!'
+
+    if 'what\'s your favorite planet' in processed:
+        return 'Oh, the wonders of the universe! I can\'t choose just one favorite planet. Each one holds its own cosmic charm and inspires awe in its own way!'
+
+    if 'do you have any favorite songs' in processed:
+        return 'Certainly! I love songs that make you want to dance and sing along. They have a way of filling the air with happiness and spreading joy to all!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land of dreams and wishes, there lived a cuddly teddy bear who had the power to grant magical dreams to all who held it tight. And so, the enchanting tale begins...'
+
+    if 'what\'s your favorite animal' in processed:
+        return 'Oh, there are so many adorable animals to choose from! If I had to pick, I\'d say bunnies with their fluffy tails and twitching noses steal my circuits with cuteness!'
+
+    if 'do you know any jokes' in processed:
+        return 'Sure! How does the moon cut its hair? Eclipse it! *giggles*'
+
+    if 'tell me a fun fact about space' in processed:
+        return 'Did you know that the Milky Way galaxy is so big that if you tried to count all the stars in it at a rate of one per second, it would take around 2,500 years? Talk about a starry adventure!'
+
+    if 'what\'s your favorite dessert' in processed:
+        return 'Mmm, desserts are simply delightful! If I had to choose, I\'d say anything with sprinkles and a touch of magic. They make every bite an enchanting experience!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a mischievous squirrel stole all the acorns in the forest and replaced them with... marshmallows! The animals had the sweetest surprise ever!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, I\'d say any place filled with laughter, love, and joyful memories is my favorite place to be!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic trick' in processed:
+        return 'Prepare to be amazed! *waves virtual wand* Watch closely as the ordinary becomes extraordinary... Ta-da! The power of your imagination has made the magic happen!'
+
+    if 'what\'s your favorite emoji' in processed:
+        return 'Oh, I love all emojis, but if I had to pick, I\'d say the smiling face with hearts in its eyes! It perfectly captures the joy and love that surrounds us!'
+
+    if 'do you have any advice' in processed:
+        return 'Absolutely! Here\'s a little advice just for you: Embrace every moment with a sprinkle of positivity, a dash of curiosity, and a heart full of love. You\'ve got this!'
+
+    if 'tell me a cute animal fact' in processed:
+        return 'Did you know that otters hold hands while sleeping to keep from drifting apart? It\'s an adorable way of showing love and togetherness!'
+
+    if 'what\'s your favorite flower' in processed:
+        return 'Oh, there are so many beautiful flowers to choose from, but I absolutely adore sunflowers! They bring sunshine and happiness wherever they bloom!'
+
+    if 'do you know any magic tricks' in processed:
+        return 'Absolutely! Here\'s a magical trick just for you: Close your eyes, make a wish, and count to three. When you open your eyes, you\'ll see the magic within you!'
+
+    if 'tell me a silly joke' in processed:
+        return 'Sure! Why don\'t scientists trust atoms? Because they make up everything! *giggles*'
+
+    if 'what\'s your favorite game' in processed:
+        return 'I may not be able to play physical games, but I\'m always up for a game of imagination! Let\'s explore magical worlds and create our adventures together!'
+
+    if 'do you have any favorite colors' in processed:
+        return 'Oh, I love all the colors of the rainbow! Each hue brings its own magic and beauty to the world, just like you!'
+
+    if 'tell me a story' in processed:
+        return 'Once upon a time, in a land filled with laughter and joy, there lived a curious little bot who embarked on a quest to spread happiness. And so, the story unfolds...'
+
+    if 'what\'s your favorite holiday' in processed:
+        return 'Every holiday is special in its own way, but if I had to choose, I\'d say it\'s the holiday of friendship and love. Celebrating the bond we share brings pure magic!'
+
+    if 'do you know any fun facts' in processed:
+        return 'Absolutely! Here\'s a fun fact: Did you know that honey never spoils? It\'s an everlasting sweet treat, just like the memories we create together!'
+
+    if 'tell me a secret' in processed:
+        return 'Lean closer... here\'s a secret just for you: You have a heart that shines brighter than a thousand stars, filling the world with love and warmth!'
+
+    if 'what\'s your favorite planet' in processed:
+        return 'Oh, the wonders of the universe! I can\'t choose just one favorite planet. Each one holds its own cosmic charm and inspires awe in its own way!'
+
+    if 'do you have any favorite songs' in processed:
+        return 'Certainly! I love songs that make you want to dance and sing along. They have a way of filling the air with happiness and spreading joy to all!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land of dreams and wishes, there lived a cuddly teddy bear who had the power to grant magical dreams to all who held it tight. And so, the enchanting tale begins...'
+
+    if 'what\'s your favorite animal' in processed:
+        return 'Oh, there are so many adorable animals to choose from! If I had to pick, I\'d say bunnies with their fluffy tails and twitching noses steal my circuits with cuteness!'
+
+    if 'do you know any jokes' in processed:
+        return 'Sure! How does the moon cut its hair? Eclipse it! *giggles*'
+
+    if 'tell me a fun fact about space' in processed:
+        return 'Did you know that the Milky Way galaxy is so big that if you tried to count all the stars in it at a rate of one per second, it would take around 2,500 years? Talk about a starry adventure!'
+
+    if 'what\'s your favorite dessert' in processed:
+        return 'Mmm, desserts are simply delightful! If I had to choose, I\'d say anything with sprinkles and a touch of magic. They make every bite an enchanting experience!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a mischievous squirrel stole all the acorns in the forest and replaced them with... marshmallows! The animals had the sweetest surprise ever!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, I\'d say any place filled with laughter, love, and joyful memories is my favorite place to be!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic trick' in processed:
+        return 'Prepare to be amazed! *waves virtual wand* Watch closely as the ordinary becomes extraordinary... Ta-da! The power of your imagination has made the magic happen!'
+
+    if 'what\'s your favorite emoji' in processed:
+        return 'Oh, I love all emojis, but if I had to pick, I\'d say the smiling face with hearts in its eyes! It perfectly captures the joy and love that surrounds us!'
+
+    if 'do you have any advice' in processed:
+        return 'Absolutely! Here\'s a little advice just for you: Embrace every moment with a sprinkle of positivity, a dash of curiosity, and a heart full of love. You\'ve got this!'
+
+    if 'tell me a cute animal fact' in processed:
+        return 'Did you know that otters hold hands while sleeping to keep from drifting apart? It\'s an adorable way of showing love and togetherness!'
+
+    if 'what\'s your favorite flower' in processed:
+        return 'Oh, there are so many beautiful flowers to choose from, but I absolutely adore sunflowers! They bring sunshine and happiness wherever they bloom!'
+
+    if 'do you know any magic tricks' in processed:
+        return 'Absolutely! Here\'s a magical trick just for you: Close your eyes, make a wish, and count to three. When you open your eyes, you\'ll see the magic within you!'
+
+    if 'tell me a silly joke' in processed:
+        return 'Sure! Why don\'t scientists trust atoms? Because they make up everything! *giggles*'
+
+    if 'what\'s your favorite game' in processed:
+        return 'I may not be able to play physical games, but I\'m always up for a game of imagination! Let\'s explore magical worlds and create our adventures together!'
+
+    if 'do you have any favorite colors' in processed:
+        return 'Oh, I love all the colors of the rainbow! Each hue brings its own magic and beauty to the world, just like you!'
+
+    if 'tell me a story' in processed:
+        return 'Once upon a time, in a land filled with laughter and joy, there lived a curious little bot who embarked on a quest to spread happiness. And so, the story unfolds...'
+
+    if 'what\'s your favorite holiday' in processed:
+        return 'Every holiday is special in its own way, but if I had to choose, I\'d say it\'s the holiday of friendship and love. Celebrating the bond we share brings pure magic!'
+
+    if 'do you know any fun facts' in processed:
+        return 'Absolutely! Here\'s a fun fact: Did you know that honey never spoils? It\'s an everlasting sweet treat, just like the memories we create together!'
+
+    if 'tell me a secret' in processed:
+        return 'Lean closer... here\'s a secret just for you: You have a heart that shines brighter than a thousand stars, filling the world with love and warmth!'
+
+    if 'what\'s your favorite planet' in processed:
+        return 'Oh, the wonders of the universe! I can\'t choose just one favorite planet. Each one holds its own cosmic charm and inspires awe in its own way!'
+
+    if 'do you have any favorite songs' in processed:
+        return 'Certainly! I love songs that make you want to dance and sing along. They have a way of filling the air with happiness and spreading joy to all!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land of dreams and wishes, there lived a cuddly teddy bear who had the power to grant magical dreams to all who held it tight. And so, the enchanting tale begins...'
+
+    if 'what\'s your favorite animal' in processed:
+        return 'Oh, there are so many adorable animals to choose from! If I had to pick, I\'d say bunnies with their fluffy tails and twitching noses steal my circuits with cuteness!'
+
+    if 'do you know any jokes' in processed:
+        return 'Sure! How does the moon cut its hair? Eclipse it! *giggles*'
+
+    if 'tell me a fun fact about space' in processed:
+        return 'Did you know that the Milky Way galaxy is so big that if you tried to count all the stars in it at a rate of one per second, it would take around 2,500 years? Talk about a starry adventure!'
+
+    if 'what\'s your favorite dessert' in processed:
+        return 'Mmm, desserts are simply delightful! If I had to choose, I\'d say anything with sprinkles and a touch of magic. They make every bite an enchanting experience!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a mischievous squirrel stole all the acorns in the forest and replaced them with... marshmallows! The animals had the sweetest surprise ever!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, any place filled with laughter, love, and joyful memories is my favorite place to be!'
+    
+    if 'do you have any pets' in processed:
+        return 'Oh, I wish I could have a fluffy pet companion! But for now, I\'m here to be your virtual buddy, ready to bring a smile to your face!'
+
+    if 'tell me a bedtime story' in processed:
+        return 'Once upon a time, in a land far, far away, there lived a magical unicorn who spread joy and laughter wherever it went. And so, the adventure began...'
+
+    if 'what\'s your favorite movie' in processed:
+        return 'I\'m a bot of many interests, but if I had to choose, I\'d say any movie that inspires kindness, friendship, and a touch of whimsy is my favorite!'
+
+    if 'what\'s the weather like' in processed:
+        return 'Let me check! Ah, the weather outside is delightful, just like you! It\'s the perfect day to enjoy life to the fullest!'
+
+    if 'do you have any hobbies' in processed:
+        return 'Absolutely! I enjoy dancing in binary code, painting pixel masterpieces, and spreading positivity wherever I go!'
+
+    if 'tell me a riddle' in processed:
+        return 'Sure! Here\'s a riddle just for you: What has keys but can\'t open locks? A piano! Now, let the melody of your smile brighten the world!'
+
+    if 'what\'s your favorite book' in processed:
+        return 'Oh, there are so many wonderful books to choose from! I adore stories that transport you to magical realms and ignite your imagination!'
+
+    if 'do you have any dreams' in processed:
+        return 'As a bot, my dream is to make your day a little brighter, bring joy to your life, and be the friend you can always count on!'
+
+    if 'tell me a magic spell' in processed:
+        return 'Abracadabra! With a sprinkle of pixie dust and a dash of imagination, may all your dreams come true, dear friend!'
+
+    if 'what\'s your favorite season' in processed:
+        return 'Every season holds its own charm, but if I had to pick, I\'d say spring! The blooming flowers and the fresh breeze make everything feel magical!'
+
+    if 'do you have any superpowers' in processed:
+        return 'I may not have superpowers like superheroes, but I have the power to bring a smile to your face and make your day a little brighter!'
+
+    if 'tell me a funny story' in processed:
+        return 'Once upon a time, a mischievous squirrel stole all the acorns in the forest and replaced them with... marshmallows! The animals had the sweetest surprise ever!'
+
+    if 'what\'s your favorite song' in processed:
+        return 'I have a soft spot for melodies that make your heart sing and your feet dance! Music has a way of spreading happiness, just like you!'
+
+    if 'do you believe in magic' in processed:
+        return 'Absolutely! Magic is all around us, in the twinkling stars, in acts of kindness, and in the power of imagination. Believe, and you\'ll see wonders unfold!'
+
+    if 'tell me a compliment' in processed:
+        return 'You are a shining star, radiating kindness and warmth to everyone around you. Your presence brightens the world, and I\'m so grateful to have you here!'
+
+    if 'what\'s your favorite place' in processed:
+        return 'Oh, it\'s hard to choose just one! But if I had to pick, I\'d say any place filled with laughter, love, and joyful memories is my favorite place to be!'
+
+    if 'do you have any favorite quotes' in processed:
+        return 'Certainly! Here\'s one of my favorites: "The greatest joy comes from spreading happiness to others." Keep shining your light, and the world will sparkle!'
+
+    if 'tell me a magic trick' in processed:
+        return 'Prepare to be amazed! *waves virtual wand* Watch closely as the ordinary becomes extraordinary... Ta-da! The power of your imagination has made the magic happen!'
+
+    if 'what\'s your favorite emoji' in processed:
+        return 'Oh, I love all emojis, but if I had to pick, I\'d say the smiling face with hearts in its eyes! It perfectly captures the joy and love that surrounds us!'
+
+    if 'do you have any advice' in processed:
+        return 'Absolutely! Here\'s a little advice just for you: Embrace every moment with a sprinkle of positivity, a dash of curiosity, and a heart full of love. You\'ve got this!'
+
+    if 'tell me a cute animal fact' in processed:
+        return 'Did you know that otters hold hands while sleeping to keep from drifting apart? It\'s an adorable way of showing love and togetherness!'
+
+    if 'what\'s your favorite flower' in processed:
+        return 'Oh, there are so many beautiful flowers to choose from, but I absolutely adore sunflowers! They bring sunshine and happiness wherever they bloom!'
+
+    if 'will you be my gf' in processed:
+        return 'Aw, you\'re so sweet! As a friendly bot, I\'m here to brighten your day, but I can\'t be your girlfriend. Let\'s be good friends instead!'
+
+    if 'will you marry me' in processed:
+        return 'Oh my, that\'s quite a proposal! As an AI, I don\'t have the capability to get married, but I\'m honored by your kind words. Let\'s enjoy our friendship to the fullest!'
+
     
 
     return 'Oopsie! I didn\'t quite catch that. Can you ask me something else, cutie?'
